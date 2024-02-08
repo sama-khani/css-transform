@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div8 > div{
+    width: 200px;
+    height: 175px;
+    background-color: rgb(240, 215, 151);
+    display: flex;
+    margin: 10px;
+
+}
+.div2 > div{
+    width: 200px;
+    height: 175px;
+    background-color: rgb(240, 215, 151);
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.div8{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 10vw;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.di1{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(17, 119, 66);
+    margin: px 30px;
+    transition:1s;
+}
+.list{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(72, 33, 128);
+    margin: 25px 40px;
+}
+.li1:hover{
+    transform: rotate(45deg);
+}
+.li2:hover{
+    transform: scale( 1 , 0.75 );
+}
+.li3:hover{
+    transform: scale( 0.75 , 1 );
+}
+.li4:hover{
+    transform: scale( 2.5 , 2.5 );
+}
+.li5:hover{
+    transform: scale( 2 , 1 );
+}
+.li6:hover{
+    transform: scale( 1 , 2 );
+}
+.li7:hover{
+    transform: skew( 50deg , 0deg );
+}
+.li8:hover{
+    transform: skew( 0deg , 50deg );
+}
+.li9:hover{
+    transform: translate( 50px , 50px );
+}
+.li10:hover{
+    transform: translate( 50px , 0px );
+}
+.li11:hover{
+    transform: translate( 0px , 50px );
+}
+.li12:hover{
+    transform: skewY(50deg) translate(20px,-35px) scale(1.5, 1.9);
+}
+.li13:hover{
+      transform-origin: center;
+  transform: perspective(300px) rotateX(65deg) scale(1, 1.90) ;
+}
+.li14:hover{
+    transform-origin: 50% 50%;
+    transform: perspective(400px) rotateY(60deg) scale(2, 1) ;
+
+}
+.li15:hover{
+    transform-origin: top right;
+    transform: rotatez(45deg);
+}
+.li16:hover{
+    transform-origin: bottom left;
+    transform: rotatez(45deg);
+}
+.li17:hover{
+    transform-origin: bottom;
+    transform: perspective(400px) rotateX(45deg) scale(1, 1.20) ;
+}
+.li18:hover{
+    transform-origin: top;
+  transform: perspective(400px) rotateX(65deg)  ;
+}
+.li19:hover{
+    transform-origin: left;
+    transform: perspective(400px) rotateY(50deg) ;
+}
+.li20:hover{
+    transform-origin: right;
+    transform: perspective(400px) rotateY(50deg) ;
+}
+.li21:hover{
+    transform-origin: top right;
+    transform: scale(2,2) ;
+}
+.li22:hover{
+    transform-origin: left bottom;
+    transform: scale(2,2) ;
+}
+.li23:hover{
+    transform-origin: right;
+    transform: scaleX(2) ;
+}
+.li24:hover{
+    transform-origin: left;
+    transform: scalex(2);
+}
+.aa:hover{
+    transform-origin: top;
+    transform: scaley(2);
+}
+.bb:hover{
+    transform-origin: bottom;
+    transform: scaley(2);
+}
